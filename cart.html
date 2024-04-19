@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-Shop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class = "container-fluid px-0 fixed-top bg-gradient">
+        <nav    class = "navbar navbar-expand-md  bg-white border-bottom">
+        <div    class = "container text-dark">
+        <a      class = "navbar-brand" href           = "index.html">
+        <img src = "Assets/Ellipse 17.png" class = "img-fluid " alt = "">
+        <img src = "Assets/V-Shop.png" class     = "img-fluid " alt = "">
+        </a>
+                    <button class         = "navbar-toggler d-lg-none" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsibleNavId" aria-controls = "collapsibleNavId"
+                            aria-expanded = "false" aria-label              = "Toggle navigation">
+                    <span   class         = "navbar-toggler-icon"></span>
+                    </button>
+                    <div    class = "collapse navbar-collapse justify-content-end" id = "collapsibleNavId">
+                    <ul     class = "navbar-nav  hea ">
+                          
+                            <li class = "nav-item">
+                            <a  class = "nav-link" href = "index.html" aria-current = "page">HOME</a>
+                            </li>
+                            <li class = "nav-item">
+                            <a  class = "nav-link" href = "men.html">MEN</a>
+                            </li>
+                            <li class = "nav-item">
+                            <a  class = "nav-link" href = "women.html">WOMEN</a>
+                            </li>
+                            <li class = "nav-item">
+                            <a  class = "nav-link" href = "contact.html">CONTACT</a>
+                            </li>
+                            <li class = "nav-item">
+                              <a  class = "nav-link text-primary" href = "cart.html" aria-current = "page">CART </a>
+                              </li>
+                            <li class = "nav-item" >
+                              <a  class = "nav-link" href = "index.html">LOGIN</a>
+                            </li>
+                        </ul>
+                    </div>
+              </div>
+            </nav>
+        </header>
+    <section class="container pt-3">
+        <div class="container pt-5 ">
+            <div class="row p-3 justify-content-center ">
+                <div class="col-10 col-md-6  mb-2" id="cart">
+                    <div class="card">
+                      <div id="carouselExampleFade" class="carousel slide carousel-fade" >
+                        <div class="carousel-inner border-1 p-3 border-black">
+                          <div class="carousel-item active">
+                            <img src="Assets/Categories_Men/formal shirts/Formal_shirt_1.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/Categories_Men/formal shirts/Formal_shirt_2.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/Categories_Men/formal shirts/Formal_shirt_3.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/Categories_Men/formal shirts/Formal_shirt_4.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden"></span>
+                        </button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6" id="cart_1">
+                    <h4 class="text-primary ">FIBERMILL </h4>
+                    <h4 class="text-dark ">
+                        Men Regular Fit Solid Spread Collar Formal Shirt
+                    </h4>
+                    <span class="text-success  ">Special Price</span>
+                    <h3 class="text-dark "><i class="bi bi-currency-rupee">399</i>  <i class="bi bi-currency-rupee fs-4 "><del class="fs-4 ">1599</del></i>   <span class="text-success fs-5 ">75% off</span></h3>
+                    <p><button class="border-1 px-2  text-dark fw-bolder  fs-6  ">4 <i class="bi bi-star-fill text-success "></i></button> (2,339) Reviews&Ratings</p> 
+                    <p class="text-black  ">
+                        Color: <span class="colr fw-bold">Pink</span>
+                    </p>
+                    
+                      <div class=" w-25 mb-2">
+                        <select
+                          class="form-select"
+                          name=""
+                          id=""
+                        >
+                          <option selected hidden>Select Size</option>
+                          <option value="">Size: S</option>
+                          <option value="">Size: M</option>
+                          <option value="">Size: L</option>
+                          <option value="">Size: XL</option>
+                        </select>
+                      </div>
+                      
+                    
+                    <h5>Quantity: <input type="number" start="1" min="1" name="" id="" placeholder=" 1" class="quant"> </h5>
+                    <h5>Delivery to <i class="bi bi-geo-alt"></i>: <span class="fs-6">5-73,Hyderbad,
+                      Hightech City,
+                      Telangana, India</span></h5>
+                    <p type="text" name="" id="" placeholder="5-73/Gandhi Road,Hightech city,Hyderbad"> </p>  
+                    <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalId">
+                        Add Address
+                    </button>
+                    <div
+                        class="modal fade"
+                        id="modalId"
+                        tabindex="-1"
+                        data-bs-backdrop="static"
+                        data-bs-keyboard="false"
+                        
+                        role="dialog"
+                        aria-labelledby="modalTitleId"
+                        aria-hidden="true"
+                    >
+                        <div
+                            class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md"
+                            role="document"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTitleId">
+                                        Address
+                                    </h5>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body">
+                                  <form action="cart.html" class="row g-3">
+                                    <div class="col-md-6">
+                                      <label for="inputEmail4" class="form-label">First Name</label>
+                                      <input type="text" class="form-control" id="inputEmail4" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputPassword4" class="form-label">Last Name</label>
+                                      <input type="text" class="form-control" id="inputPassword4" required>
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress" class="form-label">Phone No</label>
+                                      <input type="tel" class="form-control" required id="input" placeholder="+91 00000000000">
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress2" class="form-label">Address </label>
+                                      <input type="text" class="form-control" required id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputCity" class="form-label">City</label>
+                                      <input type="text" class="form-control" required id="inputCity">
+                                    </div>
+                                    <div class="col-md-4">
+                                      <label for="inputState" class="form-label">State</label>
+                                      <select id="inputState" class="form-select" required>
+                                        <option selected>Choose...</option>
+                                        <option>Andhra Pradesh</option>
+                                        <option>Arunachal Pradesh</option>
+                                        <option>Assam</option>
+                                        <option>Bihar</option>
+                                        <option>Chhattisgarh</option>
+                                        <option> Goa</option>
+                                        <option> Gujarat</option>
+                                        <option > Haryana</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                      <label for="inputZip" class="form-label">Zip</label>
+                                      <input type="tel" class="form-control" id="inputZip" required>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          Save as Primary
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="submit" class="btn btn-primary px-3 ">Save</button>
+                                  </div>
+                                  </form></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        const myModal = new bootstrap.Modal(
+                            document.getElementById("modalId"),
+                            options,
+                        );
+                    </script>
+                    
+                    <a href="response.html" class="btn btn-outline-primary" data-bs-toggle="modal"
+                    data-bs-target="#payment">Buy now</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+          </button>
+          
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="payment"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid"> <h4 class="mb-3">Payment</h4>
+                  <form action="response.html" onsubmit="return validation()">
+                    <div class="my-3">
+                      <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                        <label class="form-check-label" for="credit">Credit card</label>
+                      </div>
+                      <div class="form-check">
+                        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="debit">Debit card</label>
+                      </div>
+                      <div class="form-check">
+                        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="paypal">PayPal</label>
+                      </div>
+                    </div>
+          
+                    <div class="row gy-3">
+                      <div class="col-md-6">
+                        <label for="cc-name" class="form-label">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="Name" required>
+                        <small class="text-muted">Full name as displayed on card</small>
+                        <div class="invalid-feedback">
+                          Name on card is required
+                        </div>
+                      </div>
+          
+                      <div class="col-md-6">
+                        <label for="cc-number" class="form-label">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="1111-2222-3333-4444" required>
+                        <div class="invalid-feedback">
+                          Credit card number is required
+                        </div>
+                      </div>
+          
+                      <div class="col-md-3">
+                        <label for="cc-expiration" class="form-label">Expiration</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="12/28" required>
+                        <div class="invalid-feedback">
+                          Expiration date required
+                        </div>
+                      </div>
+          
+                      <div class="col-md-3">
+                        <label for="cc-cvv" class="form-label">CVV</label>
+                        <input type="password" class="form-control" id="cc-cvv" placeholder="123" required>
+                        <div class="invalid-feedback">
+                          Security code required
+                        </div>
+                      </div>
+                    </div>
+          
+                    <hr class="my-4">
+          
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">Place Order</button>
+                  </form>
+                </div>
+              </div></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          
+          <script>
+            var modalId = document.getElementById('modalId');
+          
+            modalId.addEventListener('show.bs.modal', function (event) {
+                let button = event.relatedTarget;
+                let recipient = button.getAttribute('data-bs-whatever');
+            });
+          </script>
+          
+        </section>
+        
+        <footer class = " border-top pt-4 bgftr" id = "foot">
+          <div class="container  ">
+            <div    class = "row">
+              <div    class = "col-6 col-lg-3 mb-3 ">
+              <img    src   = "Assets/Ellipse 17.png" class                        = "img-fluid pb-3" alt  = "">
+              <img    src   = "Assets/V-Shop.png" class                            = "img-fluid pb-3 " alt = "">
+              <h5     class = "fw-bold pt-2">Follow Us On:</h5>
+              <h5 class="pb-3">
+              <i      class = "bi bi-facebook fw-bolder text-primary"></i>
+              <i      class = "bi bi-instagram fw-bolder text-danger px-2 "></i>
+              <i class="bi bi-twitter-x fw-bolder "></i>
+              <i      class = "bi bi-linkedin  text-primary ps-2"></i>
+              </h5>
+                     </div>
+                     <div class = "col-6 col-lg-3 mb-3 ">
+                     <h5 >Need Help</h5>
+                     <li  type  = "none">
+                             Contact Us
+                         </li>
+                         <li type = "none" >
+                             Track Order
+                         </li>
+                         <li type = "none">
+                             Return & Refunds
+                         </li>
+                         <li type = "none" >
+                             FAQ'S
+                         </li>
+                     </div>
+                     <div class = "col-6 col-lg-3 mb-3 ">
+                         <h5>More Info</h5>
+                         <li type="none">
+                             Terms & Conditions
+                         </li>
+                         <li type = "none">Privacy Policy</li>
+                         <li type = "none">Shipping Policy</li>
+                     </div>
+                     <div class = "col-6 col-lg-3 mb-3 ">
+                         <h5>Location</h5>
+                         <li type = "none">
+                             support@kshop.in
+                         </li>
+                         <li type = "none">
+                             5-73,Hyderbad,<br>
+                             Hightech City, <br>
+                             Telangana, India
+      
+                         </li>
+                     </div>
+                 </div>
+          </div>
+         </footer>
+         <div class="container-fluid px-0 text-center text-bg-dark">
+          <p class="m-0 py-3 "><i class="bi bi-c-circle-fill"></i> KarunKumar</p>
+           </div>
+</body>
+</html>

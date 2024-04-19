@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name    = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>V-Shop</title>
+    <link   rel = "stylesheet" href = "css/bootstrap.min.css">
+    <script src = "js/bootstrap.bundle.min.js"></script>
+    <link   rel = "stylesheet" href = "styles.css">
+    <link   rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class = "container-fluid px-0 fixed-top bg-gradient">
+    <nav    class = "navbar navbar-expand-md  bg-white border-bottom">
+    <div    class = "container text-dark">
+    <a      class = "navbar-brand" href           = "index.html">
+    <img src = "Assets/Ellipse 17.png" class = "img-fluid " alt = "icon">
+    <img src = "Assets/V-Shop.png" class     = "img-fluid " alt = "icon">
+    </a>
+                <button class         = "navbar-toggler d-lg-none" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsibleNavId" aria-controls = "collapsibleNavId"
+                        aria-expanded = "false" aria-label              = "Toggle navigation">
+                <span   class         = "navbar-toggler-icon"></span>
+                </button>
+                <div    class = "collapse navbar-collapse justify-content-end" id = "collapsibleNavId">
+                <ul     class = "navbar-nav  hea ">
+                        <li class = "nav-item">
+                        <a  class = "nav-link bor" href = "index.html" aria-current = "page">HOME</a>
+                        </li>
+                        <li class = "nav-item">
+                        <a  class = "nav-link" href = "men.html">MEN</a>
+                        </li>
+                        <li class = "nav-item">
+                        <a  class = "nav-link" href = "women.html">WOMEN</a>
+                        </li>
+                        <li class = "nav-item">
+                        <a  class = "nav-link" href = "contact.html">CONTACT</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a  class = "nav-link" href = "cart.html" aria-current = "page">CART </a>
+                        </li>
+                        <li class = "nav-item" data-bs-toggle = "modal" data-bs-target = "#modalId">
+                            <a  class = "nav-link" href = "#">LOGIN</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+          </div>
+        </nav>
+    </header>
+    <section class = "container-fluid p-0 sliding mt-5 pt-3">
+    <div     id    = "carouselId" class    = "carousel slide" data-bs-ride = "carousel">
+    <div     class = "carousel-inner" role = "listbox">
+    <div     class = "carousel-item active bg-info">
+    <div     class = "row  ">
+    <div     class = "col-6 bg-info">
+                            <img
+                            src   = "Assets/sliding2.png"
+                            class = " slider text-end img-fluid"
+                            alt   = "First slide"/>
+                        </div>
+                        <div    class = "col-6  pt-5 ">
+                        <h3     class = "text-white  pt-5 ">A Style For Every Story. . </h3>
+                        <h1     class = "text-white fw-bolder  ">Choose Well <br>Be Well</h1>
+                        <h3     class = "text-white  "> Trandy / Cushy / Easeful</h3>
+                        <a href = "Men.html" class = "text-decoration-none btn btn-dark mt-2">Shop Now</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class = "carousel-item  bg-warning  ">
+                <div class = "row  ">
+                <div class = "col-5 col-md-6 text-center pt-5 ">
+                <h3  class = "pt-5 ">T-Shirt / Tops</h3>
+                <h1  class = " fw-bolder  ">Winter <br>Value Pack</h1>
+                            <h3> Hot / Colorful / Comfy</h3>
+                            <a href = "women.html" class = "text-decoration-none btn btn-dark">Shop Now</a>
+                        </div>
+                        <div class = "col-7 col-md-6 ps-5">
+                             <div class="col-12 col-md-6 ">
+                                <img
+                            src   = "Assets/bnr.png"
+                            class = " pt-5 slider w-100"
+                            alt   = "second slide"/>
+                             </div>
+                        </div>
+                    </div>
+                </div>    
+               
+            </div>
+                            
+                    
+        </div>
+            <button
+                class          = "carousel-control-prev"
+                type           = "button"
+                data-bs-target = "#carouselId"
+                data-bs-slide  = "prev"
+            >
+                <span class = "carousel-control-prev-icon" aria-hidden = "true"></span>
+                <span class = "visually-hidden">Previous</span>
+            </button>
+            <button
+                class          = "carousel-control-next"
+                type           = "button"
+                data-bs-target = "#carouselId"
+                data-bs-slide  = "next"
+            >
+                <span class = "carousel-control-next-icon" aria-hidden = "true"></span>
+                <span class = "visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+ <section class = "container-lg clearfix  mt-4" id = "twosections">
+ <div     class = "row">
+ <div     class = "col-md-12 col-lg-6 pb-3">
+ <div     class = "card px-3" id                   = "care_1">
+ <h5      class = "pt-3">Low Price</h5><br>
+                <h1>Discover Key <br>Trends</h1>
+                <h5>Upto 50% OFF</h5>
+                <br>
+                <button class = "border-0 bg-transparent  text-start text-white"><a href = "women.html" class = "text-decoration-none text-white ">Explore Items </a></button>
+            </div>
+        </div>
+        <div class = "col-md-12 col-lg-6 pb-3">
+        <div class = "card px-3 " id = "care_2">
+        <h5  class = "pt-3 ">V-Shop Presents</h5><br>
+        <h1  class = "fw-bolder text-secondary-emphasis  ">Warm Winter <br>Styles</h1>
+                <h5>Upto 50% OFF</h5>
+                <br>
+                <button class = "border-0 bg-transparent  text-start text-white"><a href = "women.html" class = "text-decoration-none text-white ">Explore Items</a></button>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class = "container-lg clearfix effect " id        = "new_arrival">
+ <h2      class = "text-dark fw-bold pt-4 pb-3">| New Arrivals</h2>
+ <div     class = "row mencard newcard">
+ <div     class = "col-6 col-md-4 col-lg-3">
+ <div class="card mb-3 mb-lg-1 p-1 ">
+    <div     class = "card-img-top" id                     = "new">
+        <img     src   = "Assets/knitted joggers1.png" class = " card-img-top  border-1 " id = "radius" alt = "">
+        <h4      class = "text-dark pt-2 text-center ">Knitted Joggers</h4>
+                       </div>
+ </div>
+        </div>
+        <div class = "col-6 col-md-4 col-lg-3">
+        <div class="card mb-lg-1 p-1">
+            <div class = "card-img-top" id                  = "new">
+                <img src   = "Assets/full sleeve1.jpg" class = " card-img-top  "id = "radius" alt = "">
+                <h4  class = "text-dark pt-2 text-center ">Full Sleeves</h4>
+                    </div>
+                </div>
+        </div>
+        <div class = "col-6 col-md-4 col-lg-3">
+       <div class="card mb-lg-1 p-1">
+        <div class = "card-img-top" id               = "new">
+            <img src   = "Assets/active t-shirt.jpg" class = " card-img-top  "id = "radius" alt = "img">
+            <h4  class = "text-dark pt-2 text-center ">Active T-Shirt</h4>
+                </div>
+       </div>
+        </div>
+        <div class = "col-6 col-md-4 col-lg-3">
+        <div class="card mb-lg-1 p-1">
+            <div class = "card-img-top" id                 = "new">
+                <img src   = "Assets/oversize ts.png" class = " card-img-top  "id = "radius" alt = "">
+                <h4  class = "text-dark pt-2 text-center ">Over Sized T-Shirts</h4>
+                    </div>
+                </div>
+        </div>
+    </div>
+ </section>
+ <section class = "container-lg pt-3 clearfix">
+ <h1      class = "fw-bolder  pt-lg-3 pb-2 pb-lg-3 ">| Big Saving Zone</h1>
+ <div     class = "row">
+ <div     class = "col-sm-10 col-md-6 col-lg -4 pb-3 mx-auto">
+ <div     class = "card p-3" id = "parts_1">
+ <div     class = "body ps-2 ">
+                    <h2>Hawaiian <br> Shirts</h2>
+                    <p class="fw-medium">Dress Up in Summer Vibe</p>
+                    <h4>UPTO 50% OFF</h4>
+                    <button class = "bg border-light fw-medium"><a href = "Men.html" class = "text-decoration-none text-dark  ">Shop Now</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-sm-10 col-md-6 col-lg -4 pb-3 mx-auto">
+        <div    class = "card p-3" id = "parts_2">
+        <div    class = "body ps-2">
+        <button class = "text-bg-dark text-white border-1">Limited Stock</button>
+                    <h2>Printed <br> T-Shirts</h2>
+                    <p class="fw-medium">New Designs every week</p>
+                    <h4>UPTO 40% OFF</h4>
+                    <button class = "bg border-white fw-medium"><a href = "women.html" class = "text-decoration-none text-dark  ">Shop Now</a></button>
+                </div>
+            </div>
+        </div>
+        <div class = "col-sm-10 col-md-6 col-lg -4 pb-3 mx-auto">
+        <div class = "card p-3" id = "parts_3">
+        <div class = "body ps-2">
+                    <h2>Cargo <br> Dress</h2>
+                    <p class="fw-medium">Style & comfort</p>
+                    <h4>UPTO 50% OFF</h4>
+                    <button class = "bg border-light fw-medium"><a href = "women.html" class = "text-decoration-none text-dark  ">Shop Now</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class = "container-lg pt-4  " id = "care">
+ <div     class = "row">
+ <div     class = "col-md-12 col-lg-6 pb-3">
+ <div     class = "card py-3 pe-2" id           = "care_3">
+ <h5      class = "text-center ">Low Price</h5><br>
+                <h1>Urban Shirts</h1>
+                <h5>Upto 50% OFF</h5>
+                <br>
+                <button class = "border-0 bg-transparent text-white text-end py-3  "><a href = "Men.html" class = "text-decoration-none text-white ">Explore Items</a></button>
+            </div>
+        </div>
+        <div class = "col-md-12 col-lg-6 pb-3">
+        <div class = "card py-3" id = "care_4">
+        <h5  class = "text-center ">Unique Designs</h5><br>
+                <h1>High Coziness</h1>
+                <h5>Upto 30% OFF</h5>
+                <br>
+                <button class = "border-0 bg-transparent py-3 text-end text-white "><a href = "women.html" class = "text-decoration-none text-white ">Explore Items</a></button>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class = "container pt-5 pb-3" id             = "single_sec">
+ <div     class = "row ">
+ <div     class = "col-sm-10 col-lg-12 container"   id = "fashion">
+ <h2      class = "text-light  pt-3">We Made Your Everyday <br>Fasion Better</h2>
+ <h4      class = "text-light ">Everyday live Fashion with Trending Products <br>Opens 24/7</h4>
+ <button  type  = "button" class                       = "btn   btn-primary px-4 py-1.7 fw-medium ms-3" data-bs-toggle = "modal" data-bs-target = "#modalId">
+                Login
+            </button>
+    <div    class = "modal fade" id                                                            = "modalId" tabindex          = "-1" data-bs-backdrop = "static" data-bs-keyboard = "false" role = "dialog" aria-labelledby = "modalTitleId" aria-hidden = "true">
+    <div    class = "modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role = "document">
+    <div    class = "modal-content">
+    <div    class = "modal-header">
+    <img    src   = "Assets/logo-head.jpeg" alt                                                = "logo" class                = "img-fluid pt-1">
+    <button type  = "button" class                                                             = "btn-close" data-bs-dismiss = "modal" aria-label    = "Close"></button>
+                </div>
+                <div   class = "modal-body">
+                    <form action="index.html">
+                        <div class="form-outline mb-1">
+                          <input type="email" id="form2Example1" class="form-control" required/>
+                          <label class="form-label" for="form2Example1">Email address</label>
+                        </div>
+                      
+                        <div class="form-outline mb-1">
+                          <input type="password" id="form2Example2" class="form-control" required/>
+                          <label class="form-label" for="form2Example2">Password <a href="#" class="ms-5 ps-3 pt-1">Forgot password?</a></label>
+                        </div>    
+                        <button type="submit" class="btn btn-primary btn-block mb-3" >Sign in</button>
+                      
+                        <div class="text-center">
+                          <p class="mb-0">Not a member? <a href="#!">Register</a></p>
+                          <p class="mb-1">or sign up with:</p>
+                          <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-facebook"></i>
+                          </button>
+                      
+                          <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-google"></i>
+                          </button>
+                      
+                          <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-apple"></i>
+                          </button>
+                      
+                          <button type="button" class="btn btn-link btn-floating mx-1">
+                            <i class="bi bi-twitter-x"></i>
+                          </button>
+                        </div>
+                      </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+    
+    </script>
+        </div>
+    </div>
+    
+     </section>
+ <section class = "container trans">
+ <h2      class = "text-dark fw-bold pt-2 pb-3">| Categories For Men</h2>
+ <div     class = "row ">
+ <div     class = "col-6 col-md-4 col-lg-3 pb-3">
+ <div     class = "card ">
+ <div     class = "card-body bg-danger-subtle"  >
+ <img     src   = "Assets/shirts_men1.png" class = "card-img-top " alt = "" id = "radius">
+ <h4      class = "text-dark ">Shirts</h4>
+ <button  class = "border-0 "><a href            = "Men.html" class    = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/Formal shirts.png" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Formal Shirts</h4>
+        <button class = "border-0 "><a href              = "Men.html" class    = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/printed t-shirts.png" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Printed T-shirts</h4>
+        <button class = "border-0 "><a href                 = "Men.html" class    = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/Hoodies and sweaters.png" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Hoodies sweaters</h4>
+        <button class = "border-0 "><a href                     = "Men.html" class    = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/joggers.jpeg" class = " card-img-top img-fluid" alt = "" id = "radius">
+        <h4     class = "text-dark ">Joggers</h4>
+        <button class = "border-0 "><a href            = "Men.html" class    = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/jeans.png" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Jeans</h4>
+        <button class = "border-0 "><a href      = "Men.html" class    = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/track pants.png" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Track Pants</h4>
+        <button class = "border-0 "><a href            = "Men.html" class    = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/shorts.jpeg" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Shorts</h4>
+        <button class = "border-0 "><a href        = "Men.html" class    = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class = "container trans ">
+ <h2      class = "text-dark fw-bold pt-4 pb-3">| Categories For Women</h2>
+ <div     class = "row ">
+ <div     class = "col-6 col-md-4 col-lg-3">
+ <div     class = "card mb-3 ">
+ <div     class = "card-body bg-danger-subtle">
+ <img     src   = "Assets/Saree.png" class = "card-img-top " alt = "" id = "radius">
+ <h4      class = "text-dark ">Traditional Sarees</h4>
+ <button  class = "border-0 "><a href      = "women.html" class  = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3">
+        <div    class = "card mb-3 ">
+        <div    class = "card-body bg-danger-subtle">
+        <img    src   = "Assets/coats.png" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Coats & Parkas</h4>
+        <button class = "border-0 "><a href      = "women.html" class  = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3">
+        <div    class = "card mb-3 ">
+        <div    class = "card-body bg-danger-subtle">
+        <img    src   = "Assets/Hoody.png" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Hoodies Shirt</h4>
+        <button class = "border-0 "><a href      = "women.html" class  = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3">
+        <div    class = "card mb-3 ">
+        <div    class = "card-body bg-danger-subtle">
+        <img    src   = "Assets/night dress.png" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Night Dress</h4>
+        <button class = "border-0 "><a href            = "women.html" class  = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class             = "container-fluid px pt-4 pb-4 bg-gradient">
+ <div     class             = "row">
+ <div     class             = "col-sm-10 col-md-10 col-lg-12 ">
+ <div     class             = "text-center " id = "topbrand">
+ <h1      class             = "fs-1  ">Top Brands Deal</h1>
+ <h4>     Up To <span class = "text-danger ">60%</span> on Brands</h4>
+            </div>
+        </div>
+        <div class = "col-12 col-lg-6 container-fluid   ">
+            <div class = "row ">
+                <div class = "col-3 p-2">
+                <img src   = "Assets/Gucci_logo.png" class = "img-fluid w-75 h-75 ps-4" alt = "">
+                        </div>
+                        <div class = "col-3 p-2">
+                        <img src   = "Assets/levis logo.jpg" class = "img-fluid w-75 h-75 " alt = "">
+                        </div>
+                        <div class = "col-3 p-2 ">
+                        <img src   = "Assets/puma logo.jpeg" class = "img-fluid w-75 h-75 " alt = "">
+                        </div>
+                        <div class = "col-3 p-2 ">
+                        <img src   = "Assets/Zara logo.jpg" class = "img-fluid w-75 h-75" alt = "">
+                        </div>
+                    </div>
+                </div>
+        </marquee>
+    </div>
+ </section>
+ <section class = "container trans">
+ <h2      class = "text-dark fw-bold pb-3">| In The Lime Light</h2>
+ <div     class = "row ">
+ <div     class = "col-6 col-md-4 col-lg-3 pb-3">
+ <div     class = "card ">
+ <div     class = "card-body bg-danger-subtle"  >
+ <img     src   = "Assets/gownpant2.png" class = "card-img-top " alt = "" id = "radius">
+ <h4      class = "text-dark ">PantGowns</h4>
+ <button  class = "border-0 "><a href           = "women.html" class  = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/floralsd.jpg" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Floral Dress</h4>
+        <button class = "border-0 "><a href         = "women.html" class  = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/maxidress.jpg" class = "card-img-top " alt = "" id = "radius">
+        <h4     class = "text-dark ">Maxi Dress</h4>
+        <button class = "border-0 "><a href           = "women.html" class  = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+        <div    class = "col-6 col-md-4 col-lg-3 pb-3">
+        <div    class = "card ">
+        <div    class = "card-body bg-danger-subtle"  >
+        <img    src   = "Assets/oversizedskirts.jpeg" class = "card-img-top" alt = "" id = "radius">
+        <h4     class = "text-dark ">Over-Skirts</h4>
+        <button class = "border-0 "><a href                = "women.html" class = "text-decoration-none ">Explore Now!</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <footer class = " border-top pt-4 bgftr" id = "foot">
+    <div class="container  ">
+      <div    class = "row">
+        <div    class = "col-6 col-lg-3 mb-3 ">
+        <img    src   = "Assets/Ellipse 17.png" class                        = "img-fluid pb-3" alt  = "">
+        <img    src   = "Assets/V-Shop.png" class                            = "img-fluid pb-3 " alt = "">
+        <h5     class = "fw-bold pt-2">Follow Us On:</h5>
+        <h5 class="pb-3">
+        <i      class = "bi bi-facebook fw-bolder text-primary"></i>
+        <i      class = "bi bi-instagram fw-bolder text-danger px-2 "></i>
+        <i class="bi bi-twitter-x fw-bolder "></i>
+        <i      class = "bi bi-linkedin  text-primary ps-2"></i>
+        </h5>
+               </div>
+               <div class = "col-6 col-lg-3 mb-3 ">
+               <h5 >Need Help</h5>
+               <li  type  = "none">
+                       Contact Us
+                   </li>
+                   <li type = "none" >
+                       Track Order
+                   </li>
+                   <li type = "none">
+                       Return & Refunds
+                   </li>
+                   <li type = "none" >
+                       FAQ'S
+                   </li>
+               </div>
+               <div class = "col-6 col-lg-3 mb-3 ">
+                   <h5>More Info</h5>
+                   <li type="none">
+                       Terms & Conditions
+                   </li>
+                   <li type = "none">Privacy Policy</li>
+                   <li type = "none">Shipping Policy</li>
+               </div>
+               <div class = "col-6 col-lg-3 mb-3 ">
+                   <h5>Location</h5>
+                   <li type = "none">
+                       support@kshop.in
+                   </li>
+                   <li type = "none">
+                       5-73,Hyderbad,<br>
+                       Hightech City, <br>
+                       Telangana, India
+
+                   </li>
+               </div>
+           </div>
+    </div>
+   </footer>
+   <div class="container-fluid px-0 text-center text-bg-dark">
+    <p class="m-0 py-3 "><i class="bi bi-c-circle-fill"></i> KarunKumar</p>
+     </div>
+</body>
+</html>
